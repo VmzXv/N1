@@ -43,6 +43,8 @@ curl -fsSL https://raw.githubusercontent.com/gd0772/patch/main/zzz-default-setti
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/diy/luci-app-argon-config
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial ./package/lean/luci-theme-atmaterial
+# 添加京东签到
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/diy/luci-app-jd-dailybonus
 # echo '添加 eqos'
 #svn co https://github.com/281677160/openwrt-package/trunk/luci-app-eqos ./package/diy/luci-app-eqos
 # echo '添加 访问限制'
