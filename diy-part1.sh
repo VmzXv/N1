@@ -39,7 +39,7 @@ sed -i "s/OpenWrt/N1/g" package/base-files/files/bin/config_generate
 
 
 # 添加argon主题及设置
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
 #git clone https://github.com/jerrykuku/luci-app-argon-config.git package/diy/luci-app-argon-config
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial ./package/lean/luci-theme-atmaterial
 # 添加京东签到
