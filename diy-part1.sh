@@ -198,5 +198,4 @@ sed -i 's/services/vpn/g' package/diy/OpenClash/luci-app-openclash/luasrc/view/o
 
 
 # echo '更新feeds'
-./scripts/feeds update -a
-./scripts/feeds install -a
+./scripts/feeds update -i
