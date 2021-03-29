@@ -197,6 +197,8 @@ sed -i 's/services/vpn/g' package/diy/OpenClash/luci-app-openclash/luasrc/view/o
 sed -i 's/services/vpn/g' package/diy/OpenClash/luci-app-openclash/luasrc/view/openclash/update.htm
 sed -i 's/services/vpn/g' package/diy/OpenClash/luci-app-openclash/luasrc/view/openclash/upload.htm
 
+# echo '添加自定义防火墙说明'
+curl -fsSL https://raw.githubusercontent.com/gd0772/patch/main/firewall.user > ./package/network/config/firewall/files/firewall.user
 
 # echo '更新feeds'
 ./scripts/feeds update -i
