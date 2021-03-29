@@ -54,7 +54,8 @@ git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/diy/lu
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-adguardhome ./package/diy/luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/AdGuardHome ./package/diy/AdGuardHome
 # echo '添加 dockerman @修改默认目录'
-git clone https://github.com/lisaac/luci-app-dockerman.git ./package/diy/luci-app-dockerman
+#git clone https://github.com/lisaac/luci-app-dockerman.git ./package/diy/luci-app-dockerman
+svn co https://github.com/gd0772/package/trunk/luci-app-dockerman ./package/diy/luci-app-dockerman
 #sed -i "s:/opt/docker:/mnt/mmcblk2p3/docker:g" package/diy/luci-app-dockerman/root/etc/config/dockerman
 # echo '添加 SSR Plus+'
 git clone https://github.com/fw876/helloworld package/diy/ssrplus
